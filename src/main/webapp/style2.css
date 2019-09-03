@@ -1,0 +1,73 @@
+h1 {
+	text-align: center;
+}
+
+#formTodo {
+	width: 50%;
+	margin: 0 auto;
+}
+
+#title {
+	width: 300px;
+	height: 30px;
+}
+
+#person_name {
+	width: 150px;
+	height: 30px;
+}
+
+#sequence-container {
+	margin-bottom: 50px;
+}
+
+.sequence-name {
+	margin-right: 12px;
+}
+
+#flex-container {
+	display: flex;
+	
+}
+
+#before {
+	width: 100px;
+	height: 30px;
+	background-color: white;
+	font-weight: bold;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+#submit {
+	width: 120px;
+	height: 30px;
+	margin-left: 50px;
+	margin-right: 10px;
+	background-color: #50bcdf;
+	color: white;
+	font-weight:bold;
+	border: none;
+	cursor: pointer;
+}
+
+#removeContent {
+	width: 120px;
+	height: 30px;
+	background-color: #50bcdf;
+	color: white;
+	font-weight: bold;
+	border: none;
+	cursor: pointer;
+}
+
+/* width: 150px;
+  height: 30px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 320px;
+  line-height: 30px;
+  background-color: #50bcdf;
+  color: white;
+  font-size: 12px;
+  text-align: center; */

@@ -1,0 +1,74 @@
+a {
+	text-decoration: none;
+}
+
+div#container {
+	display: flex;
+	justify-content: center;
+}
+
+#rotated {
+	position: relative;
+	height: 30px;
+	top: -20px;
+	left: 20px;
+	color: #004554;
+	font-size: 20px;
+	font-weight: bold;
+	transform: rotate(320deg);
+}
+
+#todoTitle, #doingTitle, #doneTitle {
+  width: 240px;
+  height: 50px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+  padding: 10px;
+  box-sizing: border-box;
+  line-height: 30px;  
+  background-color: #004554;
+  color: white;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+div #registerTodo {
+  width: 150px;
+  height: 30px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 320px;
+  line-height: 30px;
+  background-color: #50bcdf;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}
+
+.content {
+  width: 240px;
+  height: 80px;
+  margin-top: 8px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #a5f1bf;
+  color:black;
+  text-align: left;
+}
+
+div.contentTitle {
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+div.restContent {
+	display: flex;
+	font-size: 10px;
+}
+
+form.formTag {
+	margin-left: 6px;
+}
